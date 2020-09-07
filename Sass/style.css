@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  height: 60px;
+  border-bottom: 1px solid #E2E2E2;
+  -webkit-transform: rotate(0.14deg);
+          transform: rotate(0.14deg);
+}
+
+.navbar {
+  display: block;
+}
+
+.navbar__img {
+  float: left;
+  height: 30px;
+  width: 150px;
+  background: #C4C4C4;
+  margin: 15px 0 0 15px;
+}
+
+.navbar__links {
+  float: right;
+  margin: 23px 24px 0 0;
+}
+
+.navbar__links--lgn {
+  color: #ffffff;
+  margin-right: 22px;
+  line-height: 16px;
+  font-size: 14px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.navbar__links--rgstr {
+  color: #ff0000;
+  margin-right: 22px;
+  line-height: 16px;
+  font-size: 14px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-image: url("../images/alesia-kazantceva-XLm6-fPwK5Q-unsplash 1.png"), url("../images/Rectangle 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hue;
+}
+
+.main__section--title {
+  display: block;
+  position: absolute;
+  left: 200px;
+  right: 24px;
+  top: 146px;
+  bottom: 266px;
+  font-size: 80px;
+  font-family: 'Lobster', cursive;
+  line-height: 81px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.main__section--description {
+  position: absolute;
+  top: 270px;
+  right: 80px;
+  height: 160px;
+  width: 320px;
+  padding: 30px 48px 30px 21px;
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main__section--description li {
+  font-size: 24px;
+  line-height: 16px;
+  list-style-type: circle;
+  list-style-position: inside;
+  line-height: 35px;
+  color: #460808;
+}
+/*# sourceMappingURL=style.css.map */

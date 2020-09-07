@@ -1,0 +1,45 @@
+header{
+    height: 60px;
+    border-bottom:1px solid #E2E2E2;
+    transform: rotate(0.14deg);
+}
+
+.navbar{
+    display: block;
+    &__img{
+        float: left;
+        height: 30px;
+        width: 150px;
+
+        background: #C4C4C4;
+
+        margin: 15px 0 0 15px ;
+    }
+
+    &__links{
+        float: right;
+        margin: 23px 24px 0 0;
+        
+        &--lgn{
+            color: $primaryTextColor;
+            margin-right: 22px;
+            line-height: 16px;
+            font-size: 14px;
+            text-decoration-line: none;
+        }
+
+        &--rgstr{
+            color: $secondaryTextColor;
+            margin-right: 22px;
+            line-height: 16px;
+            font-size: 14px;
+            text-decoration-line: none;
+        }
+    }
+}
+
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
